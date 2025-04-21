@@ -1,0 +1,153 @@
+:root {
+  --body-bg: #f7ecde;
+  --bg-heading: #fec260;
+  --text-color: #352e28;
+  --bs-border-style: dotted !important;
+  --bs-border-width: 3px;
+  --btn-bg: #d1512d !important;
+  --btn-hover-bg: #bb4120 !important;
+  --btn-visit-bg: #9eb23b !important;
+  --btn-visit-hover-bg: #8a9e23 !important;
+  --btn-delete-bg: #eb1d36;
+  --btn-delete-hover-bg: #d30820;
+  --table-body-color: #212529 !important;
+}
+body {
+  background-color: var(--body-bg);
+  font-family: "PT Sans Caption", sans-serif;
+}
+.pacifico {
+  font-family: "Pacifico", cursive;
+}
+.Righteous {
+  font-family: "Righteous", cursive;
+}
+.pt {
+  font-family: "PT Sans Caption", sans-serif;
+}
+.w-fit-content {
+  width: fit-content;
+}
+.bg-heading {
+  background-color: var(--bg-heading);
+}
+.text-color {
+  color: var(--text-color);
+}
+::selection {
+  background-color: var(--bg-heading);
+}
+.fs-18px {
+  font-size: 18px;
+}
+.ps-30px {
+  padding-left: 30px;
+}
+.h-45px {
+  height: 45px;
+}
+.separator {
+  border-top-width: 2px !important;
+}
+.table {
+  padding: 0.25rem 0.25rem !important;
+}
+.line-height {
+  line-height: 35px;
+}
+td,
+th {
+  color: var(--table-body-color);
+  font-weight: 500;
+  padding-block: 12px !important;
+}
+th{
+  font-weight: bold;
+}
+button a {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+/* ^ start heading styling */
+h1 {
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+h1 + div {
+  height: 30%;
+  transition: height 0.4s;
+}
+
+h1:hover + div {
+  height: 65%;
+}
+.border {
+  border-style: var(--bs-border-style);
+  border-top-width: var(--bs-border-width);
+  border-bottom-width: 0 !important;
+  border-left-width: 0 !important;
+  border-right-width: 0 !important;
+  margin-top: 90px;
+}
+h2 {
+  font-size: 25px;
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+i.before {
+  left: -40px;
+  top: 40%;
+  background-image: linear-gradient(to right, #3ca55c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+i.after {
+  right: -40px;
+  top: 40%;
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+input {
+border-color: #eee;   
+}
+.form-control:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px 3px #ffc107 !important;
+  border: none !important;
+}
+.btn {
+  background-color: var(--btn-bg);
+  padding-block: 8px !important;
+  border: none !important;
+}
+.btn:hover {
+  background-color: var(--btn-hover-bg);
+}
+button.visit {
+  background-color: var(--btn-visit-bg);
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+button.visit:hover {
+  background-color: var(--btn-visit-hover-bg);
+  color: white;
+}
+button.delete {
+  background-color: var(--btn-delete-bg);
+  color: white;
+  font-weight: bold;
+}
+button.delete:hover {
+  background-color: var(--btn-delete-hover-bg);
+  color: white;
+}
